@@ -10,7 +10,7 @@ mongoose.set('useCreateIndex', true);
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(morgan('dev'));
-app.use(express.static('browser'));
+app.use(express.static('public'));
 app.use(errorHandler)
 app.use('/shops', shopsRouter);
 
