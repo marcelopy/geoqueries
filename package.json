@@ -1,0 +1,20 @@
+{
+  "name": "gpsLocator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "morgan": "^1.9.1"
+  }
+}

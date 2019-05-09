@@ -1,0 +1,23 @@
+h1{
+  color:red;
+  background: black;
+  text-align: center;
+  font-size: 2vw;
+}
+
+a{
+  font-size: 1.5vw;
+  color:gold;
+  background: green;
+}
+
+a.map{
+  font-size: 1.5vw;
+  color:green;
+  background: gold;
+}
+#mapid { height: 30vw;
+          width: 40vw;
+          margin: 0 auto;
+          display: flex;
+         }
